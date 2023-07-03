@@ -1,0 +1,222 @@
+object FrmNegocioCad: TFrmNegocioCad
+  Left = 0
+  Top = 0
+  Caption = 'Neg'#243'cio'
+  ClientHeight = 561
+  ClientWidth = 400
+  Fill.Kind = Solid
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnClose = FormClose
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object rectToolbar2: TRectangle
+    Align = Top
+    Fill.Color = xFF5467FB
+    Size.Width = 400.000000000000000000
+    Size.Height = 60.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object lblTitulo: TLabel
+      Align = Contents
+      StyledSettings = [Family]
+      Size.Width = 400.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Novo Neg'#243'cio'
+      TabOrder = 0
+    end
+    object Image5: TImage
+      MultiResBitmap.Height = 64
+      MultiResBitmap.Width = 64
+      MultiResBitmap = <
+        item
+          Width = 64
+          Height = 64
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+            DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            025749444154785EED96BB4A244114867B46C4DB3C816E60B0AF20066A642AF8
+            0632466EB83E85E0A62666622A468A1744990710C144D45DD817D860D14416A6
+            67BFB24E8137A6A72FCE5415E783A286EEAAFFD4777A869E4451144551144589
+            84344D27DBEDF68F4EA773C97CC3D8E3DAA2DC8E1BA4E711FEC3FC0EAE6F32D5
+            64697CF094E7907CB0BA1FC3FD6DA6F89A80FC02728F56B33BACDB906D719047
+            DEC05AB6A433B23D6CF2CA3BD8B32511495DE6E030F2B81CD5EBF5865CCAC357
+            99C36C404979C35F99C36B4005F2097B4FE4635814FDCDBF84FD574CC312190E
+            15C9FF22E78B44860387CEFC939305FB7F334D4B6438A8BCCA1747E5553E30BC
+            9427AC2F7F1A90AFE23DFF939CF2EF79B286085A27F056829F18C75C9B952595
+            E29BFC28618736F6355CFF479115595A095EC9133242D881E47E08F75996AEC9
+            965290E3CF6F9E901A61FBCFA919B0AECDD494AD8540DE9F276F206849727BA2
+            4C13BC933790B963A37BA74813BC9437107A26F9B9C8D3046FE50D04EF4A8DDC
+            F4D204AFE50D042F4B9D42746B82F7F2066A98B740D7576016A6091C7255229F
+            0942DE41AD718A9DDBB2C5B03D48BF993CE62ADEF3FD9177506C82BA2D5BBE18
+            1CDAB0C908E3C9BF85DAE69B70618F31180626EFE00C036BC2C0E51D9CA5EF4D
+            F046DEC199FAD604EFE41D9CEDD39B40FEBD97F20ECEF8694D10F92929E52F9C
+            B5F2260423EFE0CC953521387907672FDD8460E51D38146E42F0F20E5C723721
+            1A79074E3D37213A79076E994D8856DE816303C953ABFB1AAE5F472DEFC07588
+            D144F88471C7E716E2DF1963B244511445511445F18324F90FAB2BDE7B131294
+            B10000000049454E44AE426082}
+          FileName = 'D:\99CRM\Fontes\Mobile\Images\salvar.png'
+        end>
+      Align = Right
+      Margins.Right = 10.000000000000000000
+      Position.X = 358.000000000000000000
+      Size.Width = 32.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      object btnSalvar: TSpeedButton
+        Align = Client
+        Size.Width = 32.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnSalvarClick
+      end
+    end
+    object Image1: TImage
+      MultiResBitmap.Height = 64
+      MultiResBitmap.Width = 64
+      MultiResBitmap = <
+        item
+          Width = 64
+          Height = 64
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000040000000400806000000AA6971
+            DE000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            019F49444154785EEDDA4B4A03411485E1E0227C2CC1891B102782A0ABF1B900
+            4544903810D761C8505C86B3A00ED5816BE8D6BFF0F44008315D95416E713E28
+            04BBEAE239D156620FCCCCCCCC9641DBB6074DD33CB13E592FAC7B3EB7A1CB75
+            23ECE5F714A90C4AD8D2B63A1172A8BC5371FDABDA120877AD9C33B1EF9D12D6
+            74AC0EF386EFB0FF5647E3EB1B3EE1CCB38EC796133EE1DCAB46C4951B3EE1EC
+            83C6C45418BEE126B8AD51F194844F087FA851F1107EE6EFF9FF10FE48A3E271
+            F8020E1FD502C21F6B543C0E5FC0E1A372F802D1C34F7D1B6B5E843FD5A878F8
+            E2F728A05596DE42874F083F5696DE087FA6317151C044797A59B6F02BFA687D
+            F11D30D28BDA5B153F0284D82DBC09C62F811CE7BF71F2D47233BC519E2C9470
+            A25171B904B804B804B804B804B804B804B804B80450C295F264A184B86F9D75
+            4A4AE06CFAF7F88E46C55558C2486362CB2D81736F1A115F4E099CA9E321A94E
+            DF12D83FD4D17ACC5B02FB3EB809AEEA585D0837F3EF04AEA7E78537B5BD4E84
+            BC50DE3FF4CAD7FDB07487A0FB047E4CA15913D61D1DACEBB2999999D9020D06
+            3FE766DC284964BBC40000000049454E44AE426082}
+          FileName = 'D:\99CRM\Fontes\Mobile\Images\voltar.png'
+        end>
+      Align = Left
+      Margins.Left = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Size.Width = 40.000000000000000000
+      Size.Height = 60.000000000000000000
+      Size.PlatformDefault = False
+      object btnVoltar: TSpeedButton
+        Align = Client
+        Size.Width = 40.000000000000000000
+        Size.Height = 60.000000000000000000
+        Size.PlatformDefault = False
+        OnClick = btnVoltarClick
+      end
+    end
+  end
+  object cmbEtapa: TComboBox
+    Align = Top
+    Items.Strings = (
+      'Prospec'#231#227'o'
+      'Reuni'#227'o'
+      'Proposta')
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Position.X = 15.000000000000000000
+    Position.Y = 75.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+  object edtDescricao: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 7
+    Position.X = 15.000000000000000000
+    Position.Y = 127.000000000000000000
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Descri'#231#227'o'
+  end
+  object EdtValor: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 6
+    Position.X = 15.000000000000000000
+    Position.Y = 387.000000000000000000
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Valor estimado'
+  end
+  object EdtEmail: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 5
+    Position.X = 15.000000000000000000
+    Position.Y = 335.000000000000000000
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'E-mail'
+  end
+  object edtFone: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 4
+    Position.X = 15.000000000000000000
+    Position.Y = 283.000000000000000000
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Fone'
+  end
+  object EdtContato: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 3
+    Position.X = 15.000000000000000000
+    Position.Y = 231.000000000000000000
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Contato'
+  end
+  object EdtEmpresa: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    Align = Top
+    TabOrder = 2
+    Position.X = 15.000000000000000000
+    Position.Y = 179.000000000000000000
+    Margins.Left = 15.000000000000000000
+    Margins.Top = 15.000000000000000000
+    Margins.Right = 15.000000000000000000
+    Size.Width = 370.000000000000000000
+    Size.Height = 37.000000000000000000
+    Size.PlatformDefault = False
+    TextPrompt = 'Empresa'
+  end
+end
